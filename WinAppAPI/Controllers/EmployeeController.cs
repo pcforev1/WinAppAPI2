@@ -11,7 +11,10 @@ namespace WinAppAPI.Controllers
     {
         public int GetId(int id)
         {
+            var i = 5;
             return id;
+
+            
             
         }
     }
