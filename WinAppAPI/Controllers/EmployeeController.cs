@@ -9,5 +9,10 @@ namespace WinAppAPI.Controllers
 {
     public class EmployeeController : ApiController
     {
+        public int GetId(int id)
+        {
+            return id;
+            
+        }
     }
 }
