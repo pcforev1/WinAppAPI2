@@ -11,6 +11,7 @@ namespace WebApp
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            // this is a test for project
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
